@@ -1,19 +1,28 @@
-"""Функция принимает на вход номер карты и возвращает ее маску.
-Номер карты замаскирован и отображается в формате
-XXXX XX** **** XXXX
-. Т. е. видны первые 6 цифр и последние 4, номер разбит по
-блокам по 4 цифры, разделенным пробелами."""
+def get_mask_card_number(card_number: str) -> str:
+    """Принимает на вход номер карты и возвращает ее маску"""
 
-card = "2842878893689012"
-card_number = card.split()[-1]
+    count = 1
+    list_card_number = list(card_number)
+    a = []
+    for j in range(6, 12):
+        list_card_number[j] = "*"
 
-get_mask_card_number = (
-    card_number[:6] + (len(card_number[6:-4]) * "*") + card_number[-4:]
-)
+    for i in list_card_number:
+        a.append(i)
+        if count == 4:
+            a.append("x")
+            count = 0
+        count += 1
+    card_number_mask = "".join(a).replace("x", " ")
+    return card_number_mask
 
-chunks, chunk_size = len(get_mask_card_number), len(get_mask_card_number) // 4
-print(
-    " ".join(
-        [get_mask_card_number[i : i + chunk_size] for i in range(0, chunks, chunk_size)]
-    )
-)
+
+def get_mask_account(account: str) -> str:
+    """Принимает на вход номер счета и возвращает его маску"""
+    account_mask = f"**{account[16:]}"
+    return account_mask
+
+
+if __name__ == "__main__":
+    print(get_mask_card_number("1234567812345678"))
+    print(get_mask_account("73654108430135874305"))

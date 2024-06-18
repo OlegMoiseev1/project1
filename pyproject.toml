@@ -11,13 +11,15 @@ python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 requests = "^2.32.3"
-flake8 = "^7.0.0"
+
+
 
 
 [tool.poetry.group.lint.dependencies]
 mypy = "^1.10.0"
 black = "^24.4.2"
 isort = "^5.13.2"
+flake8 = "^7.0.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -27,3 +29,22 @@ build-backend = "poetry.core.masonry.api"
 [tool.mypy]
 disallow_untyped_defs = true
 no_implicit_optional = true
+searn_return_any = true
+exclude = "venv"
+
+
+[tool.black]
+line-length = 79
+
+[tool_isort]
+line-lenght = 79
+
+exclude = '''
+(
+  /(
+        \.git
+        \.venv
+        \.mypy_cache
+  )/
+)
+'''
