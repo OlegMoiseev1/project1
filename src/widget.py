@@ -1,21 +1,24 @@
-def mask_account_card(cards_number: str) -> str:
-    """Функия для маскировки счетов и карт"""
-    if "Счет" in cards_number:
-        mask_account = f"Счет {get_mask_account_card(card_number[:])}"
-        return mask_account
+from src import masks
+
+
+def mask_account_card(srting: str) -> str:
+    """Функия для маскировки счетов и дат"""
+    if "Счет" in srting:
+        account = srting[-20:]
+        return srting[:20] + masks.get_mask_account(account)
     else:
-        card = get_mask_card_numder(cards_number[-16:])
-        mask_card = cards_number.replace(cards_number[-16:], card)
-        return mask_card
+        number_card = "".join(srting[-16:].split())
+        return srting[:-16] + masks.get_mask_card_number(number_card)
 
 
-def get_data(data: str) -> str:
+# print(mask_account_card('Maestro:1596837868705199'))
+
+
+def get_data(info_data: str) -> str:
     """Функия преобразовывания даты и времени"""
-    d = datetime.strptime(data, format("%Y-%m-%dT%H:%M:%S.%fZ"))
+    data_day = info_data.split("T")[0]
 
-    return d.strftime("%d.%m.%Y")
+    return f"{data_day.split('-')[-1]}.{data_day.split('-')[-2]}.{data_day.split('-')[-3]}"
 
 
-if __name__ == "__main":
-    print(mask_account_card("Maestro:1596837868705199"))
-    print(get_data("2018-07-11T02:26:18.671407"))
+# print(get_data(2018-07-11T02:26:18.671407))

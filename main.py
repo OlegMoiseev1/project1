@@ -21,4 +21,4 @@ def get_data(info_data: str) -> str:
     return f"{data_day.split('-')[-1]}.{data_day.split('-')[-2]}.{data_day.split('-')[-3]}"
 
 
-# print(get_data('018-07-11T02:26:18.671407))
+# print(get_data(2018-07-11T02:26:18.671407))
