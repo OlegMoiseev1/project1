@@ -5,5 +5,5 @@
     <option name="enabledOnSave" value="true" />
     <option name="sdkName" value="Poetry (test_project)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Poetry (project9.2)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Poetry (project)" project-jdk-type="Python SDK" />
 </project>
