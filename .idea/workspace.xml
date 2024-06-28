@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e33a8c1-4461-4759-8eaf-2a135e004098" name="Changes" comment="update main.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/add.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/hello.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,30 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.add.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.masks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.masks1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.masks2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task9.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task9.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task9.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.widget.executor&quot;: &quot;Run&quot;,
-    &quot;Python.задача 9.1.1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/oleg/project9.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.add.executor": "Run",
+    "Python.file1.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.masks.executor": "Run",
+    "Python.masks1.executor": "Run",
+    "Python.masks2.executor": "Run",
+    "Python.task9.2.executor": "Run",
+    "Python.task9.3.executor": "Run",
+    "Python.task9.4.executor": "Run",
+    "Python.widget.executor": "Run",
+    "Python.задача 9.1.1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/homework__10__1-",
+    "last_opened_file_path": "/home/oleg/project9.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
