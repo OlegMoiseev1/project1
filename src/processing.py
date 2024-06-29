@@ -1,25 +1,27 @@
-def filter_by_stste(old_list: list, state: str = "EXECUTED") -> list[str]:
+def filter_by_state(operations: list, state: str = "EXECUTED") -> list[dict]:
     """Фунцкия которая получает список словарей и возвращает новый спиоок,
     содержащий только те словари, у которых ключ state содержит переданное
     в функцию значение"""
 
-    new_list = []
-    for i in old_list:
-        if i.get("state") == state:
-            new_list.append(i)
+    filtered_operations = []
+    for item in operations:
+        if item.get("state") == state:
+            filtered_operations.append(item)
 
-    return new_list
+    return filtered_operations
 
 
-def sort_by_date(old_list: list, date: bool = True) -> list[str]:
+def sort_by_date(operations: list, reverse: bool = True) -> list[dict]:
     """Функция которая возвращает список по убыванию"""
-    sortted_old_list = sorted(old_list, key=lambda x: x["date"], reverse=date)
-    return sortted_old_list
+    sortted_operations = sorted(
+        operations, key=lambda x: x["reverse"], reverse=reverse
+    )
+    return sortted_operations
 
 
 if __name__ == "__main__":
     print(
-        filter_by_stste(
+        filter_by_state(
             [
                 {
                     "id": 41428829,
