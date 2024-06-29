@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e33a8c1-4461-4759-8eaf-2a135e004098" name="Changes" comment="homework_10_1 done">
+    <list default="true" id="9e33a8c1-4461-4759-8eaf-2a135e004098" name="Changes" comment="homework_10_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +83,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "feature/homework__10__1-",
-    "last_opened_file_path": "/home/oleg/project9.2",
+    "last_opened_file_path": "/home/oleg/project/tests",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/data/src" />
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/data/src" />
       <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.processing">
+  <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_project" />
       <option name="ENV_FILES" value="" />
@@ -247,6 +251,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="test_project" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Poetry (project)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.masks" />
+      <item itemvalue="Python.masks2" />
+      <item itemvalue="Python.processing" />
+      <item itemvalue="Python.widget" />
+      <item itemvalue="Python tests.pytest in tests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.processing" />
@@ -329,7 +360,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719598592239</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="homework_10_1">
+      <option name="closed" value="true" />
+      <created>1719599620144</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719599620144</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homework_10_1">
+      <option name="closed" value="true" />
+      <created>1719644577328</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719644577328</updated>
+    </task>
+    <task id="LOCAL-00010" summary="homework_10_2">
+      <option name="closed" value="true" />
+      <created>1719652810613</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719652810613</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,6 +405,8 @@
     <MESSAGE value="update main.py" />
     <MESSAGE value="homework 10.1 done" />
     <MESSAGE value="homework_10_1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework_10_1 done" />
+    <MESSAGE value="homework_10_1" />
+    <MESSAGE value="homework_10_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_10_2" />
   </component>
 </project>
